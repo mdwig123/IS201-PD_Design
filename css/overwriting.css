@@ -1,0 +1,51 @@
+header.masthead {
+    font-family: 'Times New Roman', Times, serif;
+}
+.aviationbg {
+/* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+/* this is the original up | it is for giving the back ground a filter */
+background: url("../assets/img/portfolio/thumbnails/Screen\ Shot\ 2022-11-30\ at\ 12.23.18\ PM.png");
+background-position: center justify;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+width: calc(100rem - 50rem);
+padding-top: 2px;
+padding-bottom: calc(10rem - 4.5rem);
+padding-left: 25px;
+padding-right: 250px;
+}
+
+.padding{
+    padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+  /* this is the original up | it is for giving the back ground a filter */
+  background: url("../assets/img/portfolio/thumbnails/Screen\ Shot\ 2022-11-30\ at\ 12.23.18\ PM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.aviationbg1 {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+    /* this is the original up | it is for giving the back ground a filter */
+    /* background: url("../assets/img/portfolio/thumbnails/Screen\ Shot\ 2022-11-30\ at\ 12.23.18\ PM.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: auto;
+    background-color: black;
+  }
+  /* @media (min-width: 100px) {
+    header.aviationbg1 {
+      height: 200vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+    }} */
+
+
+    /* This css file is just for testing for now, nothing in here is being currently applied to any htmls */

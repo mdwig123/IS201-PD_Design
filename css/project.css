@@ -1,0 +1,919 @@
+
+/* This is a css file that I found on a cool website that I liked, it integrated with the other one very well so that is why im keeping it. */
+
+#body {background-color: rgb(0, 0, 0);}
+
+/*Insanity
+*/
+  @font-face {
+    font-family: 'Leitura';
+    src: url("/fonts/2C3E10_0_0.eot");
+    src: url("/fonts/2C3E10_0_0.woff") format("woff"); }
+
+
+/*Insanity
+/*
+
+wdiv {
+/*border: 1ax red dotted; 
+ background-color: yellow;
+}*/
+
+#header a:hover {background-color: rgb(0, 0, 0);}
+
+img:hover {text-decoration: none;}
+
+img {
+margin: 0 0 0 0;
+}
+
+p { font-family: "Leitura", "Helvetica";
+color: black;
+font-size: 21px;
+line-height: 31px;
+ }
+
+
+a {
+font-family: "Leitura", "Helvetica";
+color: grey;
+text-decoration: none;
+}
+
+a:hover {
+color: black;
+background-color: #000000;
+}
+
+#sneakyheader {
+display: none;}
+
+
+.topnav
+{
+font: 12px Helvetica, sans-serif; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+text-transform: uppercase;;
+}
+
+
+.onpage
+{
+font: 12px Helvetica, sans-serif; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+text-transform: uppercase;
+background-color: rgb(7, 7, 7); color: black;
+}
+
+.homelink
+{
+color: black;
+}
+
+.homelink:hover 
+{color: grey;
+}
+
+img.displayed {
+    display: inline;
+    margin-left: 30;
+    margin-right: 30; 
+    vertical-align: middle;
+    
+    
+    }
+
+#footer 
+    {
+		clear: both;
+    text-align: center;
+    }
+    
+foot {
+	font: 11px Helvetica, sans-serif; text-decoration:none; font-weight:bold; letter-spacing: 0.2em;
+	text-align:center;
+}
+    
+/* - - - -
+#grow:hover 
+{width: 120px; height: 120px;}
+
+
+/* - - - - PORTOLIO PEICES*/
+
+	#next
+	{
+	height: 260px;
+	}
+	
+	#next a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#next a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	
+	#idle
+	{
+	height: 210px;
+	}
+	
+	#idle a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#idle a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+
+
+	#unloved
+	{
+	height: 190px;
+	}
+	
+	#unloved a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#unloved a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+
+	
+	#tiny
+	{
+	height: 130px;
+	}
+	
+	#tiny a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#tiny a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+
+
+
+	#awards
+	{
+	height: 295px;
+	}
+	
+	#awards a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#awards a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	
+	
+	#east
+	{
+	height: 212px;
+	}
+	
+	#east a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#east a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+
+	#hat
+	{
+	height: 212px;
+	}
+	
+	#hat a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#hat a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#foam
+	{
+	height: 283px;
+	}
+	
+	#foam a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#foam a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	      #phone
+	{
+	height: 340px;
+	}
+	
+	#phone a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#phone a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	         #john
+	{
+	height: 262px;
+	/* margin: 0 0 50 0; */
+	}
+	
+	#john a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#john a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	            #see
+	{
+	height: 190px;
+	}
+	
+	#see a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#see a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#e
+	{
+	height: 200px;
+	}
+	
+	#e a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#e a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#honey
+	{
+	height: 289px;
+	}
+	
+	#honey a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#honey a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	      #church
+	{
+	height: 180px;
+	}
+	
+	#church a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#church a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	      
+	      #sin
+	{
+	height: 311px;
+	}
+	
+	#sin a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#sin a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	        #blink
+	{
+	height: 210px;
+	}
+	
+	#blink a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#blink a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	    #scoop
+	{
+	height: 379px;
+	}
+	
+	#scoop a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#scoop a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	   #animal
+	{
+	height: 280px;
+	}
+	
+	#animal a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#animal a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	   #foxes
+	{
+	height: 158px;
+	}
+	
+	#foxes a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#foxes a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	      #balloon
+	{
+	height: 322px;
+	}
+	
+	#balloon a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#balloon a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	         #curses
+	{
+	height: 342px;
+	}
+	
+	#curses a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#curses a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	        #sinter
+	{
+	height: 310px;
+	}
+	
+	#sinter a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#sinter a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	.fart {padding: 0 0 50 0;}   
+	           
+	           #cloud
+	{
+	height: 180px;
+	}
+	
+	#cloud a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#cloud a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	              #pissed
+	{
+	height: 300px;
+	}
+	
+	#pissed a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#pissed a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#sketch
+	{
+	height: 280px;
+	}
+	
+	#sketch a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#sketch a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	                   #paper
+	{
+	height: 250px;
+	}
+	
+	#paper a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#paper a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	                     #denial
+	{
+	height: 160px;
+	}
+	
+	#denial a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#denial a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	   
+	     #tech
+	{
+	height: 300px;
+	}
+	
+	#tech a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#tech a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	    	#mob
+	{
+	height: 220px;
+	}
+	
+	#mob a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#mob a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#secure
+	{
+	height: 190px;
+	}
+	
+	#secure a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#secure a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	#holstee
+	{
+	height: 230px;
+	}
+	
+	#holstee a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#holstee a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+	   #bfa
+	{
+	height: 263px;
+	}
+	
+	#bfa a span {
+	margin: 17;
+	display: none;
+	}
+	
+	#bfa a:hover span {
+	display: block;
+	font: 11px Helvetica, sans-serif; text-align: center; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+	z-index: 100;
+	   }
+	   
+/* - - - - PORTOLIO PEICES*/
+
+
+/* - - - - INTERIOR PAGES*/
+#middle {width: 900px;
+    	margin: auto;
+    	float: none;
+    	text-align: center;
+    	}
+
+#left {
+width: 60%;
+float: left;
+margin: 0 50 0 0;
+}
+
+#right {
+/*height: 200px;*/
+width: 32%;
+float: right;
+margin: 0 0 0 0;
+} 
+
+#right a {
+font-family: "Leitura", "Helvetica"; text-decoration:none; color:dark grey;
+}
+
+#left a {
+font-family: "Leitura", "Helvetica"; text-decoration:none; color:dark grey;
+}
+
+/*p {
+	font: 14px Helvetica, sans-serif;  color:dark grey; line-height: 150%;
+
+}*/
+
+h1 {
+	font: 11px Helvetica, sans-serif; text-decoration:none; font-weight:bold; color:dark grey; letter-spacing: 0.2em;
+}
+
+
+h3 {
+font-family: "Leitura", "Helvetica"; 
+text-decoration:none; 
+color:dark grey;
+font-size: 100px;
+padding-top: 20px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+#pieces img
+{
+margin: 0 0 50 0;
+width: 100%;
+}
+
+/* - - - - INTERIOR PAGES*/
+
+
+
+#wrapper {width: 1030px;margin: 0 auto;/*height: 1900px;*/}
+
+#header {
+text-align:center;
+min-height: 100px;
+margin: 0,0,0,0;
+padding: 0,0,0,0;
+}
+
+#nav {
+text-align:center;
+font: 20px helvetica, sans-serif;
+min-height: 70px;
+}
+
+#nav a {
+margin: 15;
+}
+
+#c1 {
+min-height: 900px;
+width: 217px;
+float: left;
+margin: 0 50 0 0;
+}
+
+#c2 {
+min-height: 900px;
+width: 217px;
+float: left;
+margin: 0 50 0 0;
+}
+
+#c3 {
+min-height: 900px;
+width: 217px;
+float: left;
+margin: 0 50 0 0;
+}
+
+#c4 {
+min-height: 900px;
+width: 217px;
+float: left;
+margin: 0 0 0 0;
+}
+
+.vid {
+	width: 612px;}
+
+/* #bottom {
+height: 500px;
+width: 1030px;
+float: left;
+}
+
+
+
+/* - - - - CRAZY SHIZ*/
+
+
+
+
+
+#images {
+    width: 612px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+#images img {
+    width: 612px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+}
+#images img:first-child {
+    left: 0;
+}
+#images img {
+    z-index: 1;
+    opacity: 0;
+    transition: all linear 1s;
+    -o-transition: all linear 1s;
+    -moz-transition: all linear 1s;
+    -webkit-transition: all linear 1s;
+}
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+
+#images {
+    width: 612px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+#images img {
+    width: 612px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 0;
+  /*--  transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;--*/
+}
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#images img:first-child {
+    left: 0;
+}
+  
+#future {display: inline;}
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 1055px) {
+
+#c3 {
+margin: 0 0 0 0;
+}
+
+#c4 {
+clear: both;
+float: left; 
+/* margin-left: auto; margin-right: auto; */
+width: 100%;
+/*background-color: Fuchsia; */
+margin: 0 0 0 0;
+}
+
+#wrapper {width: 780px;}
+#left img {width: 100%;}
+#part1 {float: left; margin: 0 50 0 0;}
+#part2 {float: left; margin: 0 50 0 0;}
+#part3 {float: left; margin: 0 0 0 0;}
+.ssquig {width: 90%; margin-left: auto; margin-right: auto;}
+
+#right {font-size: .8em;}
+#emailgo {font-size: .8em;}
+
+#middle {width: 100%; 
+    	margin-left: auto; margin-right: auto;
+    	float: none;
+    	text-align: center;
+    	}
+#middle img {width: 100%;}
+
+
+}
+@media screen and (max-width: 805px) {
+	
+#wrapper {width: 515px;}	
+#c2 {
+margin: 0 0 0 0;
+}
+
+#c3 {
+clear: both;
+margin: 0 50 0 0;
+}
+
+#c4 {
+clear: none;
+width: 217px;
+margin: 0 0 0 0;
+}
+
+#part1 {float: none; margin: none;}
+#part2 {float: none; margin: none;}
+#part3 {float: none; margin: none;}
+
+#squiggle {width: 90%; margin-left: auto; margin-right: auto;}
+
+#nav {clear: both;}
+#right {font-size: 1em; float: none; width: 100%;}
+#left {float: none; width: 100%;}
+h3 {font-size: 5em;}
+}
+
+@media screen and (max-width: 605px) {
+	
+#wrapper {width: 300px;}	
+
+#c1 {
+float: none;
+margin: 0 0 0 0;
+margin-left: auto; margin-right: auto;
+}
+
+#c2 {
+float: none;
+margin: 0 0 0 0;
+margin-left: auto; margin-right: auto;
+}
+
+#c3 {
+float: none;
+margin: 0 0 0 0;
+margin-left: auto; margin-right: auto;
+}
+
+#c4 {
+float: none;
+margin: 0 0 0 0;
+margin-left: auto; margin-right: auto;
+}
+#specs {clear: both;}
+
+#future {clear: both; display: block;}
+h3 {font-size: 3em;}
+#specs {clear: both;}
+}

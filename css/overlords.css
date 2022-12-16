@@ -1,0 +1,87 @@
+a{
+    font-family: 'Times New Roman';
+    align-items: center;
+}
+/* this if for the top left hand home button */
+
+img, svg {
+    padding-bottom: 5px;}
+button{
+/* this is to align the text witht he image */
+    font-family: 'Times New Roman';
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+     color: #f9fafb;
+}
+/* this changes the home button color (text) */
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+     color: rgba(255, 255, 255, 0.777);
+}
+/* changes the color of the menu buttons on right top */
+
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.643);
+}
+/* changes the hover color of the home button top left */
+
+#mainNav.navbar-shrink {
+    background-color: #212529d4;
+}     
+/* the whole top bar color   */
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #f9fafb;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #f9fafb;
+}
+/* these two, for color of menu on top and in transition */
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+     color: rgba(168, 168, 168, 0.418) !important;
+}
+#mainNav .navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+/* this is to change the top title font type */
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption{
+    background: rgba(168, 168, 168, 0.418);
+}
+/* this is the color when hover over portfolio */
+
+hr.divider{
+    background-color:black ;
+    opacity: 0.65;
+}
+/* this is the dividing line at the top */
+
+.btn-primary{
+    background-color: black;
+    opacity: 0.65;
+}
+/* this is the color of the top button */
+
+:root{ 
+    --bs-primary-rgb: 103,112,51;
+}
+/* adjust --bs-primary-rgb in CSS to adjust background color across page */
+
+/* .btn.disabled
+    opacity: 1;
+
+this is for the opacity of the bottom button, see CSS file to adjust */
+
+.btn-primary.disabled{
+    background-color: black;
+    opacity: 1;
+}
+/* this is to change the color of the bottom button */
+
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+    pointer-events: none;
+    opacity: 1;
+}
